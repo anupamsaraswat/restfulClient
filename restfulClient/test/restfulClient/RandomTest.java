@@ -2,6 +2,7 @@ package restfulClient;
 
 import mockit.Expectations;
 import mockit.Mocked;
+import mockit.StrictExpectations;
 import mockit.Tested;
 
 import org.anupam.pojo.UserInfoClient;
@@ -20,7 +21,7 @@ public class RandomTest {
 	public void seniorCitizenTest(){
 		client.setAge("60");
 		
-		new Expectations() {
+		new StrictExpectations() {
 			{
 				ClientUtil.calculateAge(client);
 				result=60;
