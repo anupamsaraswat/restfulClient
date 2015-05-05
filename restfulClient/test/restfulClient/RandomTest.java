@@ -1,6 +1,5 @@
 package restfulClient;
 
-import mockit.Expectations;
 import mockit.Mocked;
 import mockit.StrictExpectations;
 import mockit.Tested;
