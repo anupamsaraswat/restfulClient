@@ -22,15 +22,17 @@
 </dependency>
 
 <dependency>
-	<groupId>com.googlecode.jmockit</groupId>
+	<groupId>org.jmockit</groupId>
 	<artifactId>jmockit</artifactId>
-	<version>1.7</version>
+	<version>1.17</version>
 </dependency>
+
 <dependency>
-	<groupId>com.googlecode.jmockit</groupId>
+	<groupId>org.jmockit</groupId>
 	<artifactId>jmockit-coverage</artifactId>
-	<version>0.999.26</version>
+	<version>1.17</version>
 </dependency>
+
 
 
   </dependencies>
